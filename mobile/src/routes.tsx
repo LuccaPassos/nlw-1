@@ -13,7 +13,8 @@ const AppStack = createStackNavigator()
 const Routes = () => {
     return (
         <NavigationContainer>
-            <AppStack.Navigator headerMode='none' screenOptions={{
+            <AppStack.Navigator screenOptions={{
+                headerShown: false,
                 cardStyle: {
                     backgroundColor: '#f0f0f5'
                 }
